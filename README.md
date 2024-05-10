@@ -29,8 +29,11 @@ Lists all Python libraries required to run the project. Ensures environment cons
 1. **Install Requirements:**
    ```bash
    pip install -r requirements.txt
+2. **Conda Package Install Requirements:**
+   ```bash
+   conda env create --name data_science_project_env --file environment.yaml
+   conda activate data_science_project_env 
    
-
 ### `.gitignore`
 Specifies intentionally untracked files that Git should ignore.
 
