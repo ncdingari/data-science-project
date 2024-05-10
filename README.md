@@ -44,5 +44,5 @@ Makes the project pip-installable, allowing its modules to be easily imported ac
 
 1. **Clone the repository:**
    ```bash
-   git clone https://your-repository-url.git
+   git clone git@github.com:ncdingari/data-science-project.git
    cd data-science-project
