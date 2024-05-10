@@ -1,0 +1,14 @@
+# conda env create --name data_science_project_env --file environment.yaml
+# conda activate data_science_project_env 
+
+name: data_science_project_env
+channels:
+  - defaults
+  - conda-forge  # Add the conda-forge channel
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - pip:
+    - requests==2.26.0  # Specify the version for requests
+    - matplotlib==3.4.3  # Specify the version for matplotlib
